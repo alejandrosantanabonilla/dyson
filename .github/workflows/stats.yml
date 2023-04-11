@@ -56,7 +56,7 @@ jobs:
              mv *.zip data_1/
              cd data_1
              git clone -b stats https://github.com/alejandrosantanabonilla/dyson
-             mv *.zip ebcc/statistics
+             mv *.zip dyson/statistics
              
       - name: Commit files
         run: |
