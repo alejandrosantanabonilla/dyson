@@ -1,4 +1,4 @@
-name: ebcc_stats_fork
+name: dyson_stats_fork
 
 on:
   # Allows you to run this workflow manually from the Actions tab
