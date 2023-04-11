@@ -60,7 +60,7 @@ jobs:
              
       - name: Commit files
         run: |
-          cd data_1/ebcc
+          cd data_1/dyson
           git config user.name "$(git log -n 1 --pretty=format:%an)"
           git config user.email "$(git log -n 1 --pretty=format:%ae)"
           git add *.zip
